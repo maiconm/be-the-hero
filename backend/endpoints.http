@@ -42,3 +42,10 @@ DELETE  /incidents/1 HTTP/1.1
 Host: localhost:3333
 Content-Type: application/json
 Authorization: '93acbe59'
+
+
+### Profile
+GET /profile HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+Authorization: '93acbe59'
