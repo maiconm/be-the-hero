@@ -20,4 +20,25 @@ GET /ongs HTTP/1.1
 Host: localhost:3333
 Content-Type: application/json
 
-### 
+### Create ong
+POST /incidents HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+Authorization: '93acbe59'
+
+{
+  "title": "Caso 1",
+  "description": "Detalhes do caso",
+  "value": 120
+}
+
+### List incidents
+GET /incidents HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+
+### Create ong
+DELETE  /incidents/1 HTTP/1.1
+Host: localhost:3333
+Content-Type: application/json
+Authorization: '93acbe59'
