@@ -48,7 +48,7 @@ Authorization: 93acbe59
 GET /profile HTTP/1.1
 Host: localhost:3333
 Content-Type: application/json
-Authorization: '93acbe59'
+Authorization: 93acbe59
 
 ### Login
 POST /sessions HTTP/1.1
