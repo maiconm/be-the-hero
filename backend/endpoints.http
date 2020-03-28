@@ -9,8 +9,8 @@ Content-Type: application/json
 
 {
   "name": "APAD",
-  "email": "email@teste.com",
-  "whatsapp": "00 00000 0000",
+  "email": "email@tes",
+  "whatsapp": "00000000000",
   "city": "Curitiba",
   "uf": "PR"
 }
@@ -38,7 +38,7 @@ Host: localhost:3333
 Content-Type: application/json
 
 ### Delete incident
-DELETE  /incidents/16 HTTP/1.1
+DELETE  /incidents/15 HTTP/1.1
 Host: localhost:3333
 Content-Type: application/json
 Authorization: 93acbe59
